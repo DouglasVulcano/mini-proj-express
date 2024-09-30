@@ -4,10 +4,10 @@
     "description": "Exemplo de serviço Express rodando no Docker",
     "main": "src/index.js",
     "scripts": {
-      "start": "node src/index.js"
+        "start": "node src/index.js"
     },
     "dependencies": {
-      "express": "^4.18.2"
+        "cors": "^2.8.5",
+        "express": "^4.18.2"
     }
-  }
-  
+}
